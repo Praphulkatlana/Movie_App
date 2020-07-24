@@ -25,7 +25,8 @@ btn.addEventListener('click',()=>{
     movie_name=movie_name.replace(/^\s+|\s+$/gm,'');
     console.log(movie_name)
     //redirect to page    
-    const url=`http://localhost:5000/movieDetails/?address=${movie_name}`
+    // const url=`http://localhost:5000/movieDetails/?address=${movie_name}` //local 
+    const url=`/movieDetails/?address=${movie_name}`  //production
 
     if (!movie_name){
        return alert("enter movie name")
