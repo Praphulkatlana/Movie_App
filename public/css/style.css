@@ -13,6 +13,10 @@ body{
     height: 100vh;
     
 }
+.photo{
+    width: 90vw;
+    height: 70vh;
+}
 #footer {
     position: relative;;
     padding-right: 2vw;
